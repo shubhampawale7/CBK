@@ -43,7 +43,7 @@ export const productGrades = [
         "Structure consists of spheroidal, angular and rod shape carbides in martensite matrix. Martensite seems to be tempered.",
       primaryCarbide: "25%",
       secondaryCarbide: "37%",
-      image: "/src/assets/micro-cbk-eco.png",
+      image: "/assets/micro-cbk-eco.png",
     },
   },
   {
@@ -58,7 +58,7 @@ export const productGrades = [
         "Structure consists of spheroidal, angular and rod shape carbides in martensite matrix. Martensite seems to be tempered.",
       primaryCarbide: "25%",
       secondaryCarbide: "35%",
-      image: "/src/assets/micro-cbk-std.png",
+      image: "/assets/micro-cbk-std.png",
     },
   },
   {
@@ -73,7 +73,7 @@ export const productGrades = [
         "Structure consists of spheroidal, angular and rod shape carbides in martensite matrix. Martensite seems to be tempered.",
       primaryCarbide: "35%",
       secondaryCarbide: "32%",
-      image: "/src/assets/micro-cbk-1.png",
+      image: "/assets/micro-cbk-1.png",
     },
   },
   {
@@ -88,7 +88,7 @@ export const productGrades = [
         "Structure consists of spheroidal, angular and rod shape carbides in martensite matrix. Martensite seems to be tempered.",
       primaryCarbide: "25%",
       secondaryCarbide: "35%",
-      image: "/src/assets/micro-cbk-1-plus.png",
+      image: "/assets/micro-cbk-1-plus.png",
     },
   },
   {
