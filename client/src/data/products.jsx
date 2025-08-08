@@ -1,6 +1,12 @@
 import React from "react";
 import { FaBroadcastTower, FaCogs, FaIndustry, FaBolt } from "react-icons/fa";
 
+// --- Import Images from src/assets ---
+import MicroEco from "../assets/micro-cbk-eco.png";
+import MicroStd from "../assets/micro-cbk-std.png";
+import Micro1 from "../assets/micro-cbk-1.png";
+import Micro1Plus from "../assets/micro-cbk-1-plus.png";
+
 // This data is for the "Industries We Serve" section on the homepage
 export const industriesData = [
   {
@@ -43,7 +49,7 @@ export const productGrades = [
         "Structure consists of spheroidal, angular and rod shape carbides in martensite matrix. Martensite seems to be tempered.",
       primaryCarbide: "25%",
       secondaryCarbide: "37%",
-      image: "/assets/micro-cbk-eco.png",
+      image: MicroEco,
     },
   },
   {
@@ -58,7 +64,7 @@ export const productGrades = [
         "Structure consists of spheroidal, angular and rod shape carbides in martensite matrix. Martensite seems to be tempered.",
       primaryCarbide: "25%",
       secondaryCarbide: "35%",
-      image: "/assets/micro-cbk-std.png",
+      image: MicroStd,
     },
   },
   {
@@ -73,7 +79,7 @@ export const productGrades = [
         "Structure consists of spheroidal, angular and rod shape carbides in martensite matrix. Martensite seems to be tempered.",
       primaryCarbide: "35%",
       secondaryCarbide: "32%",
-      image: "/assets/micro-cbk-1.png",
+      image: Micro1,
     },
   },
   {
@@ -88,7 +94,7 @@ export const productGrades = [
         "Structure consists of spheroidal, angular and rod shape carbides in martensite matrix. Martensite seems to be tempered.",
       primaryCarbide: "25%",
       secondaryCarbide: "35%",
-      image: "/assets/micro-cbk-1-plus.png",
+      image: Micro1Plus,
     },
   },
   {
