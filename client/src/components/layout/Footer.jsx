@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div className="mb-6 md:mb-0">
             <h3 className="text-2xl font-display font-bold mb-4 text-light-text dark:text-dark-text">
-              CBK
+              CBK{""}
               <span className="text-light-primary dark:text-dark-primary">
                 Engineers
               </span>

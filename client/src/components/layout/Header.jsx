@@ -34,7 +34,7 @@ const Header = () => {
           to="/"
           className="text-2xl font-display font-bold text-light-text dark:text-dark-text"
         >
-          CBK
+          CBK {""}
           <span className="text-light-primary dark:text-dark-primary">
             Engineers
           </span>
