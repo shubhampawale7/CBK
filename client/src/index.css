@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  /* This ensures our theme colors and DEFAULT FONT are applied */
+  @apply bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text font-sans transition-colors duration-300;
+}
+
+:root {
+  /* Light Mode Palette */
+  --color-bg-light: #FFFFFF;
+  --color-text-light: #111827; /* Tailwind gray-900 */
+  --color-primary-light: #D65A0D; /* A strong, industrial orange */
+
+  /* Dark Mode Palette */
+  --color-bg-dark: #000000;
+  --color-text-dark: #F9FAFB; /* Tailwind gray-50 */
+  --color-primary-dark: #FF8A2A; /* A brighter orange for dark mode contrast */
+}
+
+body {
+  /* This ensures our theme colors are applied */
+  @apply bg-light-background text-light-text dark:bg-dark-background dark:text-dark-text transition-colors duration-300;
+}
